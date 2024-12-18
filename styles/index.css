@@ -21,7 +21,7 @@
 }
 
 .navbar li{
-  float: left;
+  float: center;
 }
 
 .navbar a:hover{
@@ -38,7 +38,8 @@ body{
   padding-bottom: 10px;
 }
 
-header{
+header,
+#article1{
   border-bottom: 1px solid black;
 }
 
