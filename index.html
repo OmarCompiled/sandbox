@@ -68,6 +68,25 @@
         Well, pointers have many uses. Pointers are actually implicitly used by the compiler when initializing arrays and strings. For example, let's say
         that we want to initialze an array of ints to store some numbers.
       </p>
+      <img 
+      src="./imgs/array_address.jpg" 
+      alt="a c++ program with an array and a cout statement with that array"
+      width="400"
+      height="400">
+      <p>
+        As you can see, this simple C++ program has an array of integers that stores 5 numbers. If we pass the name of the array without an index to cout,
+        we get this
+      </p>
+      <img
+      src="./imgs/array_result.jpg"
+      alt="the memory address of an array"
+      width="400"
+      height="400">
+      <p>
+        The memory address of the first number in the array. This is because arrays are what's called <strong>"reference types"</strong>, which means that
+        they are variables that don't store the elements themselves, rather they just store the memory address to the first element in them, and all the 
+        elements are stored somewhere else in memory. In other words, they are <em>pointing</em> to where the elements are in memory.
+      </p>
     </article>
   </main>
 </body>
