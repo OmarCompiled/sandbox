@@ -6,11 +6,20 @@
   padding-right: 40px ;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: auto;
 }
 
 .navbar{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px solid black;
+}
+
+.navbar#logo{
+  display: flex;
+  justify-content: right;
+  float: right;
 }
 
 .navbar a{
@@ -19,11 +28,10 @@
   margin: 10px;
   color: black;
 }
-
 .navbar li{
-  float: center;
+  display: flex;
+  overflow: visible ;
 }
-
 .navbar a:hover{
   border-radius: 5px;
   text-decoration: underline;
@@ -57,4 +65,12 @@ img{
   margin-left: auto;
   margin-right: auto;
   max-width: 95%;
+}
+
+#logo{
+  display: block;
+  height: auto;
+  max-width: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }
