@@ -3,9 +3,7 @@
   justify-content: center;
   list-style: none;
   overflow: hidden;
-  padding-right: 40px ;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0;
   margin: auto;
 }
 
@@ -29,8 +27,8 @@
   color: black;
 }
 .navbar li{
+  margin: auto;
   display: flex;
-  overflow: visible ;
 }
 .navbar a:hover{
   border-radius: 5px;
@@ -62,15 +60,15 @@ img{
   width: 400px;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   max-width: 95%;
+  border-radius: 5px;
 }
 
 #logo{
   display: block;
   height: auto;
   max-width: 40px;
-  margin-right: auto;
-  margin-left: auto;
+  padding:40px;
+  margin: 0;
 }
