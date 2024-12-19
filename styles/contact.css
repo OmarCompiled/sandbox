@@ -34,22 +34,6 @@ body{
   background-color: rgb(250, 249, 246);
 }
 
-#introduction{
-  padding-bottom: 10px;
-}
-
-header,
-#article1{
-  border-bottom: 1px solid black;
-}
-
-article,
-#introduction {
-  max-width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img{
   width: 400px;
   height: auto;
@@ -66,3 +50,28 @@ img{
   margin: 0;
 }
 
+header{
+  border-bottom: 1px solid black;
+}
+
+#contact{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header a:hover{
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+#contact ul{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}

@@ -29,25 +29,11 @@
   text-decoration: underline;
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(250, 249, 246);
-}
-
-#introduction{
-  padding-bottom: 10px;
-}
-
-header,
-#article1{
-  border-bottom: 1px solid black;
-}
-
-article,
-#introduction {
-  max-width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+#logo{
+  display: block;
+  height: auto;
+  max-width: 40px;
+  margin: 0;
 }
 
 img{
@@ -59,10 +45,13 @@ img{
   border-radius: 5px;
 }
 
-#logo{
-  display: block;
-  height: auto;
-  max-width: 40px;
-  margin: 0;
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(250, 249, 246);
 }
 
+#about{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
